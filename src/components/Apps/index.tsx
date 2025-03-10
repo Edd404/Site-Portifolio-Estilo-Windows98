@@ -25,7 +25,7 @@ export const Apps = () => {
       component: <Biography />,
       ...getWindowPositionAndSize(width, height - 40, []),
     });
-  }, []);
+  }, [height, openWindow, width]);
 
   return openedWindows.map((window) => {
     if (window.isMinimized === false) {

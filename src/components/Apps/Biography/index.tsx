@@ -1,6 +1,7 @@
 import { FC } from "react";
 import { Icon } from "@iconify/react";
 import "./estilofoto.css";
+import Image from "next/image";
 
 export const Biography: FC = () => {
   return (
@@ -10,9 +11,11 @@ export const Biography: FC = () => {
         {/* Seção da foto e nome */}
         <div className="flex items-center gap-4">
           <div className="crt-frame">
-            <img
+            <Image
               src="/perfil.jpeg"
               alt="Eder Muniz"
+              width={320}   // ou o valor correspondente
+              height={320}
               className="w-full h-full object-cover"
             />
           </div>
