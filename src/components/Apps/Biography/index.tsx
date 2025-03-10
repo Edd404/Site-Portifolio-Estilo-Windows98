@@ -17,7 +17,7 @@ export const Biography: FC = () => {
             />
           </div>
           <div>
-            <h2 className="text-3xl font-bold">// Eder Muniz</h2>
+            <h2 className="text-3xl font-bold">Eder Muniz</h2>
             <p className="pt-1 text-base text-slate-600">Desenvolvedor e Programador</p>
           </div>
         </div>
@@ -40,7 +40,7 @@ export const Biography: FC = () => {
 
         {/* Sobre Mim */}
         <div className="pt-8">
-          <h3 className="text-xl font-bold">// Sobre Mim</h3>
+          <h3 className="text-xl font-bold">Sobre Mim</h3>
           <p className="pt-3">Em processo de mudança de carreira. Atualmente estudante de Análise e Desenvolvimento
             de Sistemas, em conjunto, me aperfeiçoando em algumas linguagens cujo muito me intereça, como Java e Python. Anteriormente,
             me graduando em publicidade.
@@ -49,7 +49,7 @@ export const Biography: FC = () => {
 
         {/* Web Developer */}
         <div className="pt-8">
-          <h3 className="text-xl font-bold">// Programador&Desenvolvedor</h3>
+          <h3 className="text-xl font-bold">Programador&Desenvolvedor</h3>
           <p className="pt-3">
             Busco sempre soluções práticas para problemas reais, fui responsável em programar e desenvolver diversas aplicações
             para uma nova empresa de Telemarketing cujo estou estagiando, como controle de funcionários, uniformes e estoque. Tenho grande interesse
@@ -59,7 +59,7 @@ export const Biography: FC = () => {
 
         {/* Résumé */}
         <div className="pt-8">
-          <h3 className="text-xl font-bold">// Currículo </h3>
+          <h3 className="text-xl font-bold">Currículo </h3>
           <p className="pt-3">
             <a target="_blank" href="/documents/curriculo.pdf" className="text-accent underline">
               Clique aqui para abrir o currículo em pdf 👉.
