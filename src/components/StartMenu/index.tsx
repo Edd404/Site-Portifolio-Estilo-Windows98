@@ -25,7 +25,7 @@ const ITEMS = [
   },
   {
     label: "Source code",
-    href: "https://github.com/premkumar5012002/portfolio",
+    href: "https://github.com/Edd404/Site-Portifolio-Estilo-Windows98",
     icon: "logos:opensource",
   },
 ];
