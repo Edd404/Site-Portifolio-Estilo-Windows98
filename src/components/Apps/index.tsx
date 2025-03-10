@@ -27,9 +27,11 @@ export const Apps = () => {
     });
   }, [height, openWindow, width]);
 
-  return openedWindows.map((window) => {
-    if (window.isMinimized === false) {
-      return <AppWindow key={window.id} window={window} />;
-    }
-  });
+  return (
+    <>  
+      {openedWindows.map((window) => 
+        !window.isMinimized && <AppWindow key={window.id} window={window} />
+      )}
+    </>
+  );
 };
