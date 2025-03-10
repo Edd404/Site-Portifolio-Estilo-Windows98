@@ -52,7 +52,7 @@ export const Biography: FC = () => {
 
         {/* Web Developer */}
         <div className="pt-8">
-          <h3 className="text-xl font-bold">Programador&Desenvolvedor</h3>
+          <h3 className="text-xl font-bold">Desenvolvedor&Programador</h3>
           <p className="pt-3">
             Busco sempre soluções práticas para problemas reais, fui responsável em programar e desenvolver diversas aplicações
             para uma nova empresa de Telemarketing cujo estou estagiando, como controle de funcionários, uniformes e estoque. Tenho grande interesse
