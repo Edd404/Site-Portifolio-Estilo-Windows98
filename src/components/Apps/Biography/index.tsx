@@ -45,7 +45,7 @@ export const Biography: FC = () => {
         <div className="pt-8">
           <h3 className="text-xl font-bold">Sobre Mim</h3>
           <p className="pt-3">Em processo de mudança de carreira. Atualmente estudante de Análise e Desenvolvimento
-            de Sistemas, em conjunto, me aperfeiçoando em algumas linguagens cujo muito me intereça, como Java e Python. Anteriormente,
+            de Sistemas, em conjunto, me aperfeiçoando em algumas linguagens cujo muito me interessa, como Java e Python. Anteriormente,
             me graduando em publicidade.
           </p>
         </div>
